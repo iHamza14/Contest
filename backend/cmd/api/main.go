@@ -14,12 +14,14 @@ func main() {
 	err := godotenv.Load()
 
 	if err != nil {
-		log.Fatal("Error loading .env file")
+		log.Fatal("Error loading .env")
 	}
 
 	database.Connect()
 
 	router := gin.Default()
+
+	router.SetTrustedProxies(nil)
 
 	router.GET("/ping", func(c *gin.Context) {
 		c.JSON(200, gin.H{
