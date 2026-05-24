@@ -1,0 +1,38 @@
+# ENV FILES
+.env
+.env.local
+.env.production
+
+# NODE / FRONTEND
+node_modules/
+dist/
+build/
+
+# GO / BACKEND
+bin/
+vendor/
+*.exe
+*.test
+*.out
+
+# LOG FILES
+*.log
+
+# OS FILES
+.DS_Store
+Thumbs.db
+
+# IDE / EDITOR
+.vscode/
+.idea/
+
+# DOCKER
+docker-data/
+
+# TEST / COVERAGE
+coverage/
+*.coverprofile
+
+# TEMP FILES
+tmp/
+temp/
