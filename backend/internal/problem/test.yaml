@@ -1,0 +1,14 @@
+contest_id: "contest-123"
+title: "Spring Programming Championship"
+start_time: "2026-05-25T10:00:00Z"
+end_time: "2026-05-25T15:00:00Z"
+problems:
+  - problem_id: "P1"
+    problem_title: "Two Sum"
+    problem_statement: "Find the sum..."
+    time_limit_ms: 1000
+    memory_limit_mb: 256
+    testcase_v:
+      - input_file: "in1.txt"
+        output_file: "out1.txt"
+    testcase_h: []
