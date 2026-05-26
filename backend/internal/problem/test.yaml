@@ -8,7 +8,7 @@ problems:
     problem_statement: "Find the sum..."
     time_limit_ms: 1000
     memory_limit_mb: 256
-    testcase_v:
+    visible_testcases:
       - input_file: "in1.txt"
         output_file: "out1.txt"
-    testcase_h: []
+    hidden_testcases: []
